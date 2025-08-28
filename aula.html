@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <main>
+    <section id = 'vermelho'>
+        <article>
+            <div>
+                <button> origem </button>
+            </div>
+        </article>
+    </section id = 'vermelho'>
+
+    <section id = 'azul'>
+
+    </section id = 'azul '>
+    <section id = 'amarelo'>
+
+    </section id = 'amarelo'>
+   </main>
+   <script>
+        let botao = document.querySelector("button");
+        let div = botao.parentElement;
+        let article = div.parentElement;
+        let sectionorigem = article.parentElement
+        let sectionOD = sectionorigem.nextElementSibling
+        console.log(sectionorigem)
+   </script>
+</body>
+</html>
